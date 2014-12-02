@@ -13,7 +13,6 @@ bool prime = true;
 return prime;
 }
 
-
 int main (){
 unsigned long long number = 600851475143ULL;
 
