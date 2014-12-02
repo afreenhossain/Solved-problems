@@ -3,7 +3,7 @@ using namespace std;
 
 // Largest prime factor
 bool isPrime(unsigned long long n){
-int prime = true;
+bool prime = true;
     for (int j = 2; j <= n/2; j++){
         if(n%j==0){
             prime = false;
